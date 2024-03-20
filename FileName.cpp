@@ -15,7 +15,7 @@ int main() {
     ifstream file;
     file.open("filename.txt");
     if (!file.is_open()) {
-        cout << "Не удается открыть файл" << endl;
+        cout << "Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ!" << endl;
         return 1;
     }
     string line;
@@ -56,7 +56,7 @@ int main() {
         });
     int countToShow = min(15, static_cast<int>(wordVector.size()));
     for (int i = 0; i < countToShow; ++i) {
-        cout << wordVector[i].first << ": " << wordVector[i].second << " раз" << endl;
+        cout << wordVector[i].first << ": " << wordVector[i].second << " Г°Г Г§" << endl;
     }
 
     return 0;
